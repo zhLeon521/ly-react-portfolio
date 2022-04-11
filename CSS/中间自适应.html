@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    .wrap {
+      background: #eee;
+      display: flex
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .left {
+      width: 200px;
+      height: 200px;
+      background: coral;
+    }
+
+    .right {
+      width: 200px;
+      height: 200px;
+      background: lightblue;
+    }
+
+    .middle {
+      height: 200px;
+      background: lightpink;
+      flex: 1;
+    }
+  </style>
+
+  <div class="wrap">
+    <p class="left">我在左边</p>
+    <p class="middle">我在中间，flex: 1 自动占据剩余空间</p>
+    <p class="right">我在右边</p>
+  </div>
+</head>
+
+<body>
+
+</body>
+
+</html>
